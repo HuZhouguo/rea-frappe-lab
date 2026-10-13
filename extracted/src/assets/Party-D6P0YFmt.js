@@ -1,0 +1,2 @@
+import{P as s}from"./index-DZZw8L_S.js";class g extends s{constructor(){super(...arguments),this.hidden={gstin:()=>this.gstType!=="Registered Regular",loyaltyProgram:()=>{var t;return(t=this.fyo.singles.AccountingSettings)!=null&&t.enableLoyaltyProgram?this.role==="Supplier":!0},loyaltyPoints:()=>!this.loyaltyProgram||this.role==="Supplier"}}async beforeSync(){const t=this.get("gstin"),e=this.get("gstType");t&&e!=="Registered Regular"&&(this.gstin="")}}export{g as Party};
+//# sourceMappingURL=Party-D6P0YFmt.js.map
